@@ -48,18 +48,23 @@ app.post("/api/jobs", async (req, res) => {
   res.json(job);
 });
 
-app.put('/api/jobs/:id', (req, res) => {
-  const jobId = req.params.id;
-  const updatedJob = req.body;
+app.put("/api/jobs/:id", async (req, res) => {
+  try {
+    const updatedJob = await Job.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true, runValidators: true }
+    );
 
-  // Simulate a DB update (replace with your DB logic)
-  const index = Job.findIndex(job => job.id === jobId);
-  if (index === -1) {
-    return res.status(404).json({ message: 'Job not found' });
+    if (!updatedJob) {
+      return res.status(404).json({ message: "Job not found" });
+    }
+
+    res.status(200).json({ message: "Job updated", job: updatedJob });
+  } catch (err) {
+    console.error("Update error:", err);
+    res.status(500).json({ message: "Server error" });
   }
-
-  Job[index] = { id: jobId, ...updatedJob };
-  res.status(200).json({ message: 'Job updated', job: Job[index] });
 });
 
 app.delete("/api/jobs/:id", async (req, res) => {
