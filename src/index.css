@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.listNav {
+    @apply px-2 hover:bg-white hover:text-black cursor-pointer transition-all ease-in-out duration-500 rounded-sm;
+}
+

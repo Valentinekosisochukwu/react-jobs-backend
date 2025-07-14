@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+      "location": "Boston, MA",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solution Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+        "contactEmail": "contact@newteksolutions.com",
+        "contactPhone": "111-222-3333"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Junior React Developer",
+      "type": "Remote",
+      "description": "We are seeking a talented Front-End Developer to join our team in Los Angeles, LA. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+      "location": "Los Angeles, LA",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Otello Logistics",
+        "description": "Otello Logistics Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+        "contactEmail": "contact@otellogistics.com",
+        "contactPhone": "444-555-6666"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Senior Python Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented Back-End Developer to join our team in Texas, TA. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+      "location": "Texas, TA",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Tenacep",
+        "description": "Tenacep Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+        "contactEmail": "contact@tenacep.com",
+        "contactPhone": "777-888-9999"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Junior Python Developer",
+      "type": "Remote",
+      "description": "We are seeking a talented Back-End Developer to join our team in Pheonix, AZ. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+      "location": "Pheonix, AZ",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Genesis",
+        "description": "Genesis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+        "contactEmail": "contact@genesis.com",
+        "contactPhone": "000-111-2222"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Product Manager",
+      "type": "Full-Time",
+      "description": "We are seeking a talented Product Manager to join our team in Washington, DC. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+      "location": "Washington, DC",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Galaxy Gates",
+        "description": "Genesis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+        "contactEmail": "contact@gates.com",
+        "contactPhone": "000-111-2222"
+      }
+    },
+    {
+      "id": "6",
+      "title": "UI/UX Designer",
+      "type": "Remote",
+      "description": "We are seeking a talented UI/UX Designer to join our team in New Jersey, NJ. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+      "location": "New Jersey, NJ",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Metropolis",
+        "description": "Genesis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iure a, fuga, sunt repudiandae eaque aliquid harum nesciunt repellat fugiat dignissimos enim nam perferendis sit? Nam eos et voluptatem magni odio vero praesentium! Beatae, minus.",
+        "contactEmail": "contact@metropolis.com",
+        "contactPhone": "000-111-2222"
+      }
+    }
+  ]
+}
